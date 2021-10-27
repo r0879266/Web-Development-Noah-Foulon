@@ -1,0 +1,18 @@
+body{
+    font-family: Verdana;
+    background-color: darkgray;
+    color: darkblue;
+}
+h1{
+    background-color: red;
+    text-transform: lowercase;
+}
+a:hover{
+    background-color: aqua;
+}
+.stippeltjesrand{
+    border-style: dotted;
+}
+ul{
+    list-style-image: url("check-circle-solid.svg");
+}
