@@ -4,6 +4,9 @@ body{
 .topnav {
     background-color: #333;
     overflow: hidden;
+    font-family: Helvetica;
+    font-weight: bold;
+
 }
 .topnav a {
     float: left;
@@ -16,7 +19,7 @@ body{
 
 
 .topnav a:hover {
-    background-color: white;
+    background-color: #1df52f;
     color: black;
 }
 
