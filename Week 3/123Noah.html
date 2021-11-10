@@ -3,24 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <title>Noah Foulon</title>
+    <link rel="stylesheet" href="Homepage.css">
 </head>
 <body>
-    <h1>Noah Foulon</h1>
+<div class="onbekend"></div>
+<h1>Noah Foulon</h1>
 
-    <ul>
-        <li>Noah Foulon
-            <ul>
-                <li>Luipaardstraat 34 8550 Zwevegem</li>
-                <li>043 36 78 58</li>
-                <li>Noah.foulon@student.vives.be</li>
-            </ul>
-        </li>
-        <img src="WIN_20211006_15_02_17_Pro.jpg" alt="Foto van mij :)" width="500" height="600">
-    </ul>
+<ul>
+    <li>Noah Foulon
+        <ul>
+            <li>Luipaardstraat 34 8550 Zwevegem</li>
+            <li>043 36 78 58</li>
+            <li>Noah.foulon@student.vives.be</li>
+        </ul>
+    </li>
+</ul>
 
-    <A HREF = hobbies.html>hobbies</A>
-    <A HREF = likes.html>My likes</A>
+<li><a href="Week%204/hobbies.html">Hobbies</a></li>
+<li><a href="Week%204/likes.html">Likes</a></li>
 
+    <table>
+        <thead>
+        <tr>
+            <th>Voornaam</th>
+            <th>Naam</th>
+            <th>GSM Nummer</th>
+            <th>Stad</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+            <td colspan="4">
+                <div id="paging">
+                    <ul>
+                        <li><a href="#"><span>Previous</span></a></li>
+                        <li><a href="#" class="active"><span>1</span></a></li>
+                        <li><a href="#"><span>2</span></a></li>
+                        <li><a href="#"><span>3</span></a></li>
+                        <li><a href="#"><span>4</span></a></li>
+                        <li><a href="#"><span>5</span></a></li>
+                        <li><a href="#"><span>Next</span></a></li>
+                    </ul>
+                </div>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+            <td>Noah</td>
+            <td>Foulon</td>
+            <td>0456 78 92 67</td>
+            <td>Kortrijk</td>
+        </tr>
+        <tr class="alt">
+            <td>Donald</td>
+            <td>Muile</td>
+            <td>051 20 50 15</td>
+            <td>Roeselare</td>
+        </tr>
+        <tr>
+            <td>Greta</td>
+            <td>Thunberg</td>
+            <td>0473 45 78 59</td>
+            <td>Stockholm</td>
+        </tr>
+        <tr class="alt">
+            <td>Stephen</td>
+            <td>Curry</td>
+            <td><div class=""onbekend"></div></td>
+            <td>Akron</td>
+        </tr>
+        <tr>
+            <td>Barack</td>
+            <td>Obama</td>
+            <td><div class=""onbekend"></div></td>
+            <td>Honolulu</td>
+        </tr>
+        </tbody>
+    </table>
 
+Antwoord opdracht 3, Week 7: De CSS regel: .onbekend {background‐color:red;} heeft geen invloed op de onbekende cellen omdat deze door de CSS code overworpen worden.
 </body>
 </html>
