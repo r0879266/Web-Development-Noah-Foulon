@@ -24,9 +24,13 @@ header img{
 header{
     border-bottom: 1px solid #ebe8e8;
     width: 100%;
+    margin: auto;
 }
 @media only screen and (max-width: 770px){
     header{
+        width: 600px;
+    }
+    .snelmenu{
         width: 600px;
     }
 }
@@ -34,9 +38,15 @@ header{
     header{
         width: 750px;
     }
+    .snelmenu{
+        width: 750px;
+    }
 }
 @media only screen and (min-width: 1000px){
     header{
+        width: 980px;
+    }
+    .snelmenu{
         width: 980px;
     }
 }
@@ -47,6 +57,7 @@ header{
     padding-bottom: 10px;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
+    margin: auto;
 }
 .snelmenu span{
     display: block;
@@ -61,4 +72,7 @@ header{
     width: 100%;
     height: auto;
     display: block;
+}
+.snelmenu span:hover{
+    text-decoration: underline 1px solid #fff100;
 }
