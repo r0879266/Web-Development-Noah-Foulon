@@ -50,7 +50,7 @@ section div {
         grid-template-rows: auto auto auto auto;
     }
     .item-1 {
-        visibility: hidden;
+        display: none;
     }
     .item-2 {
         grid-column: 2 / span 1;
