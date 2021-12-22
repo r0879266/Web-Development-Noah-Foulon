@@ -92,7 +92,7 @@ main {
     border-top: 1px solid var(--clr-gray);
 }
 main > .hero {
-    background-image: url('../images/headerimage.jpg');
+    background-image: url("images/headerimage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
